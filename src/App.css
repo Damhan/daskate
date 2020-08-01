@@ -11,7 +11,8 @@ html, body {
 
 /* Navigation Bar */
 .nav-main {
-  height: 12vh;
+  min-height: 10vh;
+  height: auto;
 }
 
 .navbar-brand {
@@ -26,7 +27,7 @@ html, body {
   padding-right:10px;
 
   font-weight: 600;
-  font-size: 80%;
+  font-size: 1em;
   font-family: 'Raleway', sans-serif;
   letter-spacing: 1.5px;
   color: #363636 !important;
