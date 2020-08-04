@@ -1,7 +1,9 @@
+/* General */
+/*   CSS   */
 html, body {
   overflow-x: hidden;
   min-height: 100%!important;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif !important;
 }
 
 .App {
@@ -10,6 +12,7 @@ html, body {
 
 
 /* Navigation Bar */
+/*      CSS       */
 .nav-main {
   min-height: 10vh;
   height: auto;
@@ -34,7 +37,8 @@ html, body {
 }
 
 
-/* Homepage */
+/*    Homepage      */
+/*      CSS         */
 .img-container {
   width: 100vw;
   height: auto;
@@ -46,6 +50,12 @@ html, body {
   width:100%;
   height:auto;
   max-height:100%;
+}
+
+.banner-img {
+  width:100vw;
+  height: auto;
+  max-height: 100%;
 }
 
 .call-to-action {
@@ -79,5 +89,35 @@ html, body {
     padding-right:25px;
     font-size: .55em;
   }
+}
+
+/* Homepage Products */
+.prod-latest-container {
+  display: flex;
+  justify-content: center;
+  width:100vw;
+}
+
+.prod-latest-header {
+  font-size:2em;
+  padding: 5vh;
+  letter-spacing: 1px;
+}
+
+.prod-latest-header::after {
+  position: relative;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #e9c600;
+    border-radius: 50px;
+    margin: .6rem auto;
+    content: " ";
+}
+
+.product-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 }
